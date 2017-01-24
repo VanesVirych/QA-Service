@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<mapping class="com.ivirych.qaapplication.model.Question" />
+		<mapping class="com.ivirych.qaapplication.model.Answer" />
+		<mapping class="com.ivirych.qaapplication.model.User" />
+		<mapping class="com.ivirych.qaapplication.model.Role" />
+		<mapping class="com.ivirych.qaapplication.model.Favorite" />
+		<mapping class="com.ivirych.qaapplication.model.AnswerLike" />
+		<mapping class="com.ivirych.qaapplication.model.QuestionLike" />
+	</session-factory>
+</hibernate-configuration>
